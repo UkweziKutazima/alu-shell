@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "\"(ôo)'"
+echo '(ôo)'
+EOFcat << 'EOF' > 1-confused_smiley
+#!/bin/bash
+echo '"(ôo)\''
